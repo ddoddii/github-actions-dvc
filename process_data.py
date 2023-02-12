@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("data_raw.csv")
+df = pd.read_csv("/Users/soeun-uhm/yonsei/DSL/DSL_23-1/MLOps/github-actions-project-github-actions-dvc/data_raw.csv")
 
 all_features = df.columns
 
