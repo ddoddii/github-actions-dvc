@@ -27,7 +27,6 @@ imp = SimpleImputer(missing_values=np.nan, strategy='mean')
 imp.fit(X)
 X = imp.transform(X)
 
-
 # Linear model
 #clf = LogisticRegression()
 clf = QuadraticDiscriminantAnalysis()
